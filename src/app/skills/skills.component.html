@@ -5,6 +5,10 @@
       @for (skill of skills; track skill) {
         <button type="button" class="btn btn-primary mx-1 my-1">
           {{ skill.name }}
+          <span class="badge text-bg-primary"
+            ><sup>{{ skill.wellness }}</sup
+            >&frasl;<sub>100</sub></span
+          >
         </button>
       }
     </div>
