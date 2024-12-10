@@ -1,0 +1,12 @@
+<div class="row vh-100 align-items-center" id="info_page">
+  <div class="col-lg text-center">
+    <div class="h1 text-primary">My Skills</div>
+    <div>
+      @for (skill of skills; track skill) {
+        <button type="button" class="btn btn-primary mx-1 my-1">
+          {{ skill.name }}
+        </button>
+      }
+    </div>
+  </div>
+</div>
